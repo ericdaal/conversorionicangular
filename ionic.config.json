@@ -1,0 +1,7 @@
+{
+  "name": "DivisApp_1120031",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
