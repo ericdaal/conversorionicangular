@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-
+  quetzales=0;
+  dolares=0;
+  resultado=0;
   constructor() {}
-
 }

@@ -1,17 +1,28 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Conversor
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div class="centered-content">
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Conversor de<br>Divisas</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <app-explore-container name="DivisApp 2120316"></app-explore-container>
+    <ion-list>
+      <ion-list>
+        <ion-item>
+          <ion-input label="Quetzales: " [(ngModel)]="quetzales"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input label="Dolares: {{quetzales  / 8}}"></ion-input>
+          <h1></h1>
+        </ion-item>
+      </ion-list>
+    </ion-list>
+  </div>
 </ion-content>

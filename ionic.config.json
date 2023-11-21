@@ -1,7 +1,8 @@
 {
   "name": "DivisApp_1120031",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
